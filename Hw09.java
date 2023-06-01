@@ -25,7 +25,5 @@ public class Hw09 extends MoreCommonMethods {
       driver.switchTo().frame("frame1");
       WebElement textBox=driver.findElement(By.xpath("//input"));
       textBox.sendKeys("MagicMan");
-
-
     }
 }
