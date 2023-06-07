@@ -12,6 +12,6 @@ public class Hw12 extends MoreCommonMethods {
         openBrowserAndLaunchApplication(url,browser);
 
         WebElement dd = driver.findElement(By.xpath("//select[@id='select-demo']"));
-        dropDowns(dd,"Wednesday");
+        dropDowns(dd,"Sunday");
     }
 }
